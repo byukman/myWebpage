@@ -9,9 +9,11 @@
     	}
     	p{
     		font-family: sans-serif;
+    		line-height: 1.5em;
     	}
     	li{
     		font-family: sans-serif;
+    		line-height: 1.5em;
     	}
     	strong{
     		color: #ffffff;
@@ -19,19 +21,15 @@
     		font-family: serif;
     		font-size: 1.2em;
     		text-shadow: 1.75px 1.75px purple;
+    		line-height: .01em;
     	}
-    	#myName{
-    		color: #ffffff;
-    		font-size: 3.5em;
-    		font-weight:bolder;
-    		line-height:1em;
-    		padding: 20px;
-    		text-align:center;
-    		text-shadow: 1.75px 1.75px black;
+    	em{
+    		line-height: 2em;
     	}
     	h2{
     		color: #ffffff;
     		font-size:1.6em;
+    		font-style: bold;
     		line-height:1em;
     		padding: 20px;
     		text-align:center;
@@ -40,14 +38,25 @@
     	h3{
     		color: #ffffff;
     		font-size:1.6em;
+    		text-decoration: underline;
     		text-shadow: 1.75px 1.75px purple;
 	    }
 	    img {
 	    	display: block;
-	    	border:6px ridge rgb(230,175,255);
+	    	border:6px solid rgb(230,175,255);
 	 	   	margin: auto;
 	 	   	width:33%;
 		}
+		#myName{
+    		color: #ffffff;
+    		font-family: serif;
+    		font-size: 3.5em;
+    		font-weight:bolder;
+    		line-height:1em;
+    		padding: 20px;
+    		text-align:center;
+    		text-shadow: 1.75px 1.75px black;
+    	}
 		.header{
 			background-color:purple;
 			font-family:serif;
@@ -60,6 +69,27 @@
 		.mySkills{
 			border:2px solid purple;
 			margin:10px 10px;
+		}
+		#experience{
+			text-align: center;
+		}
+		.myExperience{
+			width:90%;
+			margin:auto;
+		}
+		#leadership{
+			text-align: center;
+		}
+		.myRoles{
+			border:2px solid purple;
+			margin:10px 10px;
+		}
+		#awards{
+			text-align: center;
+		}
+		.myAwards{}
+		a.hover{
+			color:black;
 		}
     </style>
 </head>
@@ -81,6 +111,7 @@
 	</ul>
 
 	</div>
+	<div class="myExperience">
 	<h3 id="experience">Experience</h3>
 
 	<p><strong>Pomona College Department of Computer Science</strong><br>
@@ -97,8 +128,9 @@
 	<em>Undergraduate Research Assistant, Summer 2014</em><br>
 		Develop upon the open source, Java-based improvisational jazz software <a href="https://www.cs.hmc.edu/~keller/jazz/improvisor/">Impro-Visor</a> under the guidance of Professor Bob Keller. Research the build compatibility of the software with updated Java 7 package in Yosemite OS. Dig into a decade’s worth of source code to implement quantization capabilities for user-generated MIDI input. Commit contributions to the new release using Subversion repository control software.
 	</p>
+	</div>
 
-
+	<div class="myRoles">
 	<h3 id="leadership"> Leadership Roles</h3>
 
 		<ul>
@@ -107,7 +139,9 @@
 		<li>Residential Housing Staff Sponsor (Fall 2013 - Spring 2014)</li>
 		<li>Team Organizer for Relay for Life (Fall 2012 – Spring 2014)</li>
 	</ul>
+	</div>
 
+	<div class="myAwards">
 	<h3 id="awards"> Honors & Awards</h3>
 		<ul>
 		<li>Virginia Princehouse Allen Prize Recipient (Spring 2014)</li>
@@ -116,6 +150,8 @@
 		<li>National Merit Finalist (Fall 2012)</li>
 		<li>Girl Scout Gold Award Recipient (Spring 2011)</l1>
 	</ul>
+	</li>
+	</div>
 	
 
 	<a href="#top">Back to Top<a>
